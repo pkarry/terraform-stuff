@@ -1,6 +1,15 @@
 # terraform-stuff
+This code will create the following AWS resources:
+`vpc`
 
-To make this code work, create terraform.tfvars file with required variables or pass them from the command line.
+`one private and public subnet`
+
+`Internet and NAT Gateway`
+
+`Route Table Associations for internet and nat gateway`
+
+
+## To make this code work, create terraform.tfvars file with required variables or pass them from the command line.
 
 Here is an example of terraform.tfvars:
 
